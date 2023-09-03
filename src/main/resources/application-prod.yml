@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-center
+    # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.9.222.10:3306/user-center
+    username: root
+    password: Yxb2003Kst2004
+  session:
+    timeout: 86400
